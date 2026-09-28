@@ -379,6 +379,23 @@ applicable agreement for further details.
 		(arc (pt 31 37)(pt 30 12)(rect 18 12 43 37))
 	)
 )
+(symbol
+	(rect 392 128 424 160)
+	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
+	(text "inst8" (rect 3 21 26 33)(font "Arial" )(invisible))
+	(port
+		(pt 16 0)
+		(output)
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(line (pt 16 8)(pt 16 0))
+	)
+	(drawing
+		(line (pt 8 8)(pt 16 16))
+		(line (pt 16 16)(pt 24 8))
+		(line (pt 8 8)(pt 24 8))
+	)
+)
 (connector
 	(text "LOAD" (rect 402 168 431 180)(font "Arial" ))
 	(pt 456 184)
@@ -520,4 +537,24 @@ applicable agreement for further details.
 	(text "MIR[9]" (rect 258 32 291 44)(font "Arial" ))
 	(pt 360 48)
 	(pt 248 48)
+)
+(connector
+	(pt 456 152)
+	(pt 432 152)
+	(bus)
+)
+(connector
+	(pt 432 152)
+	(pt 432 120)
+	(bus)
+)
+(connector
+	(pt 432 120)
+	(pt 408 120)
+	(bus)
+)
+(connector
+	(pt 408 120)
+	(pt 408 128)
+	(bus)
 )
